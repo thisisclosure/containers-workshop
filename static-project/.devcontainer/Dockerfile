@@ -1,3 +1,3 @@
 FROM node:12-stretch
 
-RUN npm install -g eslint pretter
+RUN npm install -g eslint prettier
