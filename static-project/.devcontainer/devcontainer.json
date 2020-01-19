@@ -1,0 +1,16 @@
+{
+     "name": "Frontend Masters Dev",
+     "dockerFile": "Dockerfile",
+     "appPort": [8080],
+     "runArgs": ["-u", "node"],
+     "settings": {
+         "workbench.colorTheme":"Night Owl",
+         "terminal.integrated.shell.linux": "/bin/bash"
+     },
+     "postCreateCommand": "npm install",
+     "extensions": [
+         "sdras.night-owl",
+         "dbaeumer.vscode-eslint",
+         "esbenp.prettier.vscode"
+     ]
+}
