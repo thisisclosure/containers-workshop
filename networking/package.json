@@ -12,6 +12,6 @@
   "dependencies": {
     "@hapi/hapi": "^19.0.5",
     "hapi-pino": "^6.3.0",
-    "mongodb": "^3.5.1"
+    "mongodb": "^3.3.5"
   }
 }
