@@ -1,0 +1,19 @@
+apiVersion: v1
+
+kind: Service
+
+metadata:
+        name: myapp-service
+        annotations:
+                dev.okteto.com/auto-ingress: "true"
+
+spec:
+        type: NodePort
+        ports:
+                - targetPort: 80
+                  port: 80
+                  nodePort: 30008
+        selector:
+                app: myapp
+                type: front-end
+
